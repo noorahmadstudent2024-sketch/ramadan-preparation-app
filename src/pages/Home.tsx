@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { Calendar, Clock, BookOpen, Heart, CheckSquare, Moon, Star } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 
+export default function Home() {
   const features = [
     {
       icon: Clock,
