@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BookOpen, Info, AlertCircle, Heart, Star, CheckCircle } from 'lucide-react';
+import { BookOpen, Info, Heart, Star, CheckCircle } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 
 interface Topic {

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Plus, RotateCcw, Vibrate, Volume2, VolumeX } from 'lucide-react';
+import { Plus, RotateCcw, Volume2, VolumeX } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
@@ -14,7 +14,7 @@ interface TasbeehPreset {
 }
 
 export default function Tasbeeh() {
-  const { t, i18n } = useTranslation('common');
+  const { i18n } = useTranslation('common');
   const [count, setCount] = useState(0);
   const [soundEnabled, setSoundEnabled] = useState(true);
   const [selectedPreset, setSelectedPreset] = useState<number>(0);

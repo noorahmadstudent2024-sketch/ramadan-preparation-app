@@ -13,7 +13,6 @@ interface PrayerTime {
 
 export default function PrayerTimes() {
   const [location, setLocation] = useState<string>('Getting location...');
-  const [currentDate, setCurrentDate] = useState(new Date());
   const [currentTime, setCurrentTime] = useState(new Date());
 
   useEffect(() => {
@@ -109,7 +108,7 @@ export default function PrayerTimes() {
                 {format(currentTime, 'hh:mm:ss a')}
               </div>
               <div className="text-sm text-gray-600">
-                {format(currentDate, 'EEEE, MMMM d, yyyy')}
+                {format(currentTime, 'EEEE, MMMM d, yyyy')}
               </div>
             </div>
           </div>

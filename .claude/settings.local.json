@@ -6,7 +6,8 @@
       "Bash(npm install:*)",
       "Bash(start http://localhost:5174/)",
       "Bash(start http://localhost:5175/)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(gh repo create:*)"
     ]
   }
 }

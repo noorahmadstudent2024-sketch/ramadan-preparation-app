@@ -1,11 +1,6 @@
-import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Calendar, Clock, BookOpen, Heart, CheckSquare, Moon, Star } from 'lucide-react';
 import { Card } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-
-export default function Home() {
-  const { t } = useTranslation();
 
   const features = [
     {
@@ -58,18 +53,20 @@ export default function Home() {
           and educational resources
         </p>
         <div className="flex justify-center gap-4 pt-4">
-          <Button asChild size="lg">
-            <Link to="/prayer-times">
-              <Clock className="w-5 h-5 mr-2" />
-              Prayer Times
-            </Link>
-          </Button>
-          <Button asChild variant="outline" size="lg">
-            <Link to="/education">
-              <BookOpen className="w-5 h-5 mr-2" />
-              Learn More
-            </Link>
-          </Button>
+          <Link
+            to="/prayer-times"
+            className="inline-flex items-center justify-center h-12 px-10 rounded-xl text-base font-semibold bg-gradient-to-r from-purple-600 to-indigo-600 text-white hover:from-purple-700 hover:to-indigo-700 shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 active:scale-95"
+          >
+            <Clock className="w-5 h-5 mr-2" />
+            Prayer Times
+          </Link>
+          <Link
+            to="/education"
+            className="inline-flex items-center justify-center h-12 px-10 rounded-xl text-base font-semibold border-2 border-purple-200 bg-white/80 backdrop-blur-sm hover:bg-purple-50 hover:border-purple-300 shadow-md hover:shadow-lg transition-all duration-300 active:scale-95"
+          >
+            <BookOpen className="w-5 h-5 mr-2" />
+            Learn More
+          </Link>
         </div>
       </div>
 
