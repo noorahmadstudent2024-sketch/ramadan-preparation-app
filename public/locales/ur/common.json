@@ -1,0 +1,56 @@
+{
+  "appName": "رمضان کی تیاری",
+  "navigation": {
+    "home": "ہوم",
+    "prayerTimes": "نماز کے اوقات",
+    "education": "رمضان کے بارے میں جانیں",
+    "spiritual": "روحانی وسائل",
+    "checklist": "تیاری کی فہرست",
+    "tasbeeh": "ڈیجیٹل تسبیح"
+  },
+  "actions": {
+    "search": "تلاش کریں",
+    "close": "بند کریں",
+    "save": "محفوظ کریں",
+    "cancel": "منسوخ کریں",
+    "edit": "ترمیم کریں",
+    "delete": "حذف کریں",
+    "add": "شامل کریں",
+    "copy": "کاپی کریں",
+    "share": "شیئر کریں",
+    "download": "ڈاؤن لوڈ کریں"
+  },
+  "common": {
+    "loading": "لوڈ ہو رہا ہے...",
+    "error": "ایک خرابی واقع ہوئی",
+    "noData": "کوئی ڈیٹا دستیاب نہیں",
+    "tryAgain": "دوبارہ کوشش کریں",
+    "success": "کامیابی!",
+    "ramadan": "رمضان",
+    "ramadanMubarak": "رمضان مبارک",
+    "day": "دن",
+    "days": "دن",
+    "of": "کا"
+  },
+  "theme": {
+    "light": "روشن",
+    "dark": "تاریک",
+    "toggle": "تھیم تبدیل کریں"
+  },
+  "language": {
+    "english": "English",
+    "arabic": "العربية",
+    "urdu": "اردو",
+    "changeLanguage": "زبان تبدیل کریں"
+  },
+  "time": {
+    "hour": "گھنٹہ",
+    "hours": "گھنٹے",
+    "minute": "منٹ",
+    "minutes": "منٹ",
+    "second": "سیکنڈ",
+    "seconds": "سیکنڈ",
+    "until": "تک",
+    "remaining": "باقی"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "title": "نماز کے اوقات",
+  "prayers": {
+    "fajr": "فجر",
+    "sunrise": "طلوع آفتاب",
+    "dhuhr": "ظہر",
+    "asr": "عصر",
+    "maghrib": "مغرب",
+    "isha": "عشاء"
+  },
+  "sehri": "سحری",
+  "iftar": "افطار",
+  "nextPrayer": "اگلی نماز",
+  "currentPrayer": "موجودہ نماز",
+  "timeRemaining": "باقی وقت",
+  "location": "مقام",
+  "changeLocation": "مقام تبدیل کریں",
+  "city": "شہر",
+  "country": "ملک",
+  "searchLocation": "اپنا شہر تلاش کریں",
+  "enableLocation": "مقام فعال کریں",
+  "useMyLocation": "میرا مقام استعمال کریں",
+  "calendar": {
+    "title": "رمضان کیلنڈر",
+    "today": "آج",
+    "sehriTime": "سحری کا وقت",
+    "iftarTime": "افطار کا وقت",
+    "hijriDate": "ہجری تاریخ"
+  },
+  "countdown": {
+    "until": "تک",
+    "passed": "وقت گزر گیا"
+  },
+  "errors": {
+    "fetchFailed": "نماز کے اوقات حاصل کرنے میں ناکام",
+    "locationDenied": "مقام کی اجازت مسترد کر دی گئی",
+    "invalidLocation": "غلط مقام"
+  }
+}

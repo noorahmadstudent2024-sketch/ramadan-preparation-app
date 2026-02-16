@@ -1,0 +1,81 @@
+/* RTL-specific styles for Arabic and Urdu */
+
+/* Flip margins and paddings */
+[dir="rtl"] .ml-auto {
+  margin-left: unset;
+  margin-right: auto;
+}
+
+[dir="rtl"] .mr-auto {
+  margin-right: unset;
+  margin-left: auto;
+}
+
+/* Flip text alignment */
+[dir="rtl"] .text-left {
+  text-align: right;
+}
+
+[dir="rtl"] .text-right {
+  text-align: left;
+}
+
+/* Flip floats */
+[dir="rtl"] .float-left {
+  float: right;
+}
+
+[dir="rtl"] .float-right {
+  float: left;
+}
+
+/* Flip border radius */
+[dir="rtl"] .rounded-l-lg {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+[dir="rtl"] .rounded-r-lg {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+/* Flip flexbox direction when needed */
+[dir="rtl"] .flex-row-reverse {
+  flex-direction: row;
+}
+
+/* Icons and arrows should also flip */
+[dir="rtl"] .chevron-right {
+  transform: scaleX(-1);
+}
+
+[dir="rtl"] .chevron-left {
+  transform: scaleX(-1);
+}
+
+/* Ensure Arabic and Urdu text displays properly */
+.lang-ar,
+.lang-ur {
+  font-feature-settings: "liga" 1, "calt" 1;
+}
+
+/* Larger line height for Arabic and Urdu for better readability */
+.lang-ar p,
+.lang-ur p {
+  line-height: 1.8;
+}
+
+/* Navigation menu RTL */
+[dir="rtl"] nav ul {
+  flex-direction: row-reverse;
+}
+
+/* Card headers RTL */
+[dir="rtl"] .card-header {
+  text-align: right;
+}

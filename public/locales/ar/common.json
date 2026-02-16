@@ -1,0 +1,56 @@
+{
+  "appName": "التحضير لرمضان",
+  "navigation": {
+    "home": "الرئيسية",
+    "prayerTimes": "مواقيت الصلاة",
+    "education": "تعلم عن رمضان",
+    "spiritual": "الموارد الروحية",
+    "checklist": "قائمة التحضيرات",
+    "tasbeeh": "التسبيح الرقمي"
+  },
+  "actions": {
+    "search": "بحث",
+    "close": "إغلاق",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "add": "إضافة",
+    "copy": "نسخ",
+    "share": "مشاركة",
+    "download": "تحميل"
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ",
+    "noData": "لا توجد بيانات متاحة",
+    "tryAgain": "حاول مرة أخرى",
+    "success": "نجح!",
+    "ramadan": "رمضان",
+    "ramadanMubarak": "رمضان مبارك",
+    "day": "يوم",
+    "days": "أيام",
+    "of": "من"
+  },
+  "theme": {
+    "light": "فاتح",
+    "dark": "داكن",
+    "toggle": "تبديل السمة"
+  },
+  "language": {
+    "english": "English",
+    "arabic": "العربية",
+    "urdu": "اردو",
+    "changeLanguage": "تغيير اللغة"
+  },
+  "time": {
+    "hour": "ساعة",
+    "hours": "ساعات",
+    "minute": "دقيقة",
+    "minutes": "دقائق",
+    "second": "ثانية",
+    "seconds": "ثوانٍ",
+    "until": "حتى",
+    "remaining": "متبقي"
+  }
+}

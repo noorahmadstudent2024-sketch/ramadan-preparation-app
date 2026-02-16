@@ -1,0 +1,56 @@
+{
+  "appName": "Ramadan Preparation",
+  "navigation": {
+    "home": "Home",
+    "prayerTimes": "Prayer Times",
+    "education": "Learn About Ramadan",
+    "spiritual": "Spiritual Resources",
+    "checklist": "Preparation Checklist",
+    "tasbeeh": "Digital Tasbeeh"
+  },
+  "actions": {
+    "search": "Search",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add": "Add",
+    "copy": "Copy",
+    "share": "Share",
+    "download": "Download"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "noData": "No data available",
+    "tryAgain": "Try again",
+    "success": "Success!",
+    "ramadan": "Ramadan",
+    "ramadanMubarak": "Ramadan Mubarak",
+    "day": "Day",
+    "days": "Days",
+    "of": "of"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "toggle": "Toggle theme"
+  },
+  "language": {
+    "english": "English",
+    "arabic": "العربية",
+    "urdu": "اردو",
+    "changeLanguage": "Change Language"
+  },
+  "time": {
+    "hour": "hour",
+    "hours": "hours",
+    "minute": "minute",
+    "minutes": "minutes",
+    "second": "second",
+    "seconds": "seconds",
+    "until": "until",
+    "remaining": "remaining"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "title": "مواقيت الصلاة",
+  "prayers": {
+    "fajr": "الفجر",
+    "sunrise": "الشروق",
+    "dhuhr": "الظهر",
+    "asr": "العصر",
+    "maghrib": "المغرب",
+    "isha": "العشاء"
+  },
+  "sehri": "السحور",
+  "iftar": "الإفطار",
+  "nextPrayer": "الصلاة القادمة",
+  "currentPrayer": "الصلاة الحالية",
+  "timeRemaining": "الوقت المتبقي",
+  "location": "الموقع",
+  "changeLocation": "تغيير الموقع",
+  "city": "المدينة",
+  "country": "البلد",
+  "searchLocation": "ابحث عن مدينتك",
+  "enableLocation": "تمكين الموقع",
+  "useMyLocation": "استخدم موقعي",
+  "calendar": {
+    "title": "تقويم رمضان",
+    "today": "اليوم",
+    "sehriTime": "وقت السحور",
+    "iftarTime": "وقت الإفطار",
+    "hijriDate": "التاريخ الهجري"
+  },
+  "countdown": {
+    "until": "حتى",
+    "passed": "انتهى الوقت"
+  },
+  "errors": {
+    "fetchFailed": "فشل في جلب مواقيت الصلاة",
+    "locationDenied": "تم رفض إذن الموقع",
+    "invalidLocation": "موقع غير صالح"
+  }
+}

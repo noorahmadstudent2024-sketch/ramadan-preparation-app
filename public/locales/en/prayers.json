@@ -1,0 +1,39 @@
+{
+  "title": "Prayer Times",
+  "prayers": {
+    "fajr": "Fajr",
+    "sunrise": "Sunrise",
+    "dhuhr": "Dhuhr",
+    "asr": "Asr",
+    "maghrib": "Maghrib",
+    "isha": "Isha"
+  },
+  "sehri": "Sehri",
+  "iftar": "Iftar",
+  "nextPrayer": "Next Prayer",
+  "currentPrayer": "Current Prayer",
+  "timeRemaining": "Time Remaining",
+  "location": "Location",
+  "changeLocation": "Change Location",
+  "city": "City",
+  "country": "Country",
+  "searchLocation": "Search for your city",
+  "enableLocation": "Enable Location",
+  "useMyLocation": "Use My Location",
+  "calendar": {
+    "title": "Ramadan Calendar",
+    "today": "Today",
+    "sehriTime": "Sehri Time",
+    "iftarTime": "Iftar Time",
+    "hijriDate": "Hijri Date"
+  },
+  "countdown": {
+    "until": "until",
+    "passed": "Time has passed"
+  },
+  "errors": {
+    "fetchFailed": "Failed to fetch prayer times",
+    "locationDenied": "Location permission denied",
+    "invalidLocation": "Invalid location"
+  }
+}
